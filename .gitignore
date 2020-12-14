@@ -1,0 +1,9 @@
+**/.*
+**/bin
+**/obj
+
+3rdparty/**
+sources/**
+
+!.gitignore
+!.editorconfig

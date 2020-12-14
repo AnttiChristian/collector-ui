@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <OutputType>library</OutputType>
+    <LangVersion>preview</LangVersion>
+    <Nullable>enable</Nullable>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Collector.Database.Abstractions\Collector.Database.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>

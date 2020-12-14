@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <OutputType>library</OutputType>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <LangVersion>preview</LangVersion>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Collector.Formats\Collector.Formats.csproj" />
+  </ItemGroup>
+
+</Project>
