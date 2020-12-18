@@ -34,6 +34,35 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution", "solution", "{8F
 		LICENSE.txt = LICENSE.txt
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{99B93D15-A54F-4F6C-BA0E-B5A28CCC0F49}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "formats", "formats", "{D78A9A2A-0C5F-4CD1-B69D-DE0FD0220334}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tape", "tape", "{1A1B5A25-DB32-4EEC-9E53-B61248F3EF5E}"
+	ProjectSection(SolutionItems) = preProject
+		docs\formats\tape\atari-8bit-cas.md = docs\formats\tape\atari-8bit-cas.md
+		docs\formats\tape\index.md = docs\formats\tape\index.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "binary", "binary", "{D5FFF8DA-4D0B-4589-95A8-2C7364ED6C1D}"
+	ProjectSection(SolutionItems) = preProject
+		docs\formats\binary\amstrad-cpr.md = docs\formats\binary\amstrad-cpr.md
+		docs\formats\binary\atari-7800-a78.md = docs\formats\binary\atari-7800-a78.md
+		docs\formats\binary\atari-lynx-lnx.md = docs\formats\binary\atari-lynx-lnx.md
+		docs\formats\binary\index.md = docs\formats\binary\index.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "floppy-disks", "floppy-disks", "{0CB7B425-E218-487B-A6A7-94219CF50BFC}"
+	ProjectSection(SolutionItems) = preProject
+		docs\formats\floppy-disks\atari-8bit-atr.md = docs\formats\floppy-disks\atari-8bit-atr.md
+		docs\formats\floppy-disks\atari-8bit-atx.md = docs\formats\floppy-disks\atari-8bit-atx.md
+		docs\formats\floppy-disks\atari-8bit-dcm.md = docs\formats\floppy-disks\atari-8bit-dcm.md
+		docs\formats\floppy-disks\atari-8bit-pro.md = docs\formats\floppy-disks\atari-8bit-pro.md
+		docs\formats\floppy-disks\atari-8bit-scp .md = docs\formats\floppy-disks\atari-8bit-scp .md
+		docs\formats\floppy-disks\atari-8bit-xfd.md = docs\formats\floppy-disks\atari-8bit-xfd.md
+		docs\formats\floppy-disks\index.md = docs\formats\floppy-disks\index.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -95,6 +124,10 @@ Global
 		{B78425A1-B8EA-4815-97EF-5FC07E565EF9} = {62DE28D9-B9B4-4072-BA9F-A90055E8863F}
 		{C0663776-5447-49DC-BED6-5514A257AA67} = {62DE28D9-B9B4-4072-BA9F-A90055E8863F}
 		{BEFD49EF-CE50-4068-884A-A516F1547C8A} = {62DE28D9-B9B4-4072-BA9F-A90055E8863F}
+		{D78A9A2A-0C5F-4CD1-B69D-DE0FD0220334} = {99B93D15-A54F-4F6C-BA0E-B5A28CCC0F49}
+		{1A1B5A25-DB32-4EEC-9E53-B61248F3EF5E} = {D78A9A2A-0C5F-4CD1-B69D-DE0FD0220334}
+		{D5FFF8DA-4D0B-4589-95A8-2C7364ED6C1D} = {D78A9A2A-0C5F-4CD1-B69D-DE0FD0220334}
+		{0CB7B425-E218-487B-A6A7-94219CF50BFC} = {D78A9A2A-0C5F-4CD1-B69D-DE0FD0220334}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CE6DE426-31C6-4877-9A70-FE7328E56D89}

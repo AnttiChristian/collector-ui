@@ -18,5 +18,5 @@ SD (single denstity) disks = 1 side => 40 tracks => 18 sectors => 128 bytes (FM 
 ED (enhanced density) disks = 1 side => 40 tracks => 26 sectors => 128 bytes (MFM encoding)
 DD (double density) disks = 1 sides => 40 tracks => 18 sectors => 256 bytes (MFM encoding)
 
-All disks can have recorded both side so you have to flip the disk if drive does not support 
+All disks can have recorded both sides so you have to flip the disk if drive does not support 
 reading from both sides simultaneously.

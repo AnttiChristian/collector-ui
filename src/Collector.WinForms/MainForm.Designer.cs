@@ -234,7 +234,7 @@ namespace Collector.WinForms
             this.DatabaseTreeView.Name = "DatabaseTreeView";
             this.DatabaseTreeView.Size = new System.Drawing.Size(266, 266);
             this.DatabaseTreeView.TabIndex = 0;
-            this.DatabaseTreeView.DoubleClick += new System.EventHandler(this.DatabaseTreeView_DoubleClick);
+            this.DatabaseTreeView.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.DatabaseTreeView_AfterSelect);
             // 
             // DumpsListView
             // 
