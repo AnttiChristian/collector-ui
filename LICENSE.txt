@@ -1,0 +1,4 @@
+MANAGED OPENSOURCE LICENCE
+Derivative works are forbidden. All changes, fixes and other code 
+modifications must be done using pull requests into the original 
+repository.

@@ -6,8 +6,6 @@ namespace Collector.Utilities
     {
         private static bool DetectWindow(byte[] buffer, int offset, int length) => (offset + length) <= buffer.Length;
 
-
-
         public static async Task<bool> Compare(byte[] first, int firstOffset, byte[] second, int secondOffset, int length)
         {
             return await Task<bool>.Run(() =>
@@ -20,7 +18,7 @@ namespace Collector.Utilities
                     return false;
                 }
 
-                for(var i = 0; i < length; i++)
+                for (var i = 0; i < length; i++)
                 {
                     if (first[i + firstOffset] != second[i + secondOffset])
                     {
