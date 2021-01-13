@@ -195,7 +195,7 @@ namespace Collector.WinForms
             Updater.Update(path, "https://github.com/AnttiChristian/collector-data.git");
         }
 
-        private void DatabaseTreeView_DoubleClick(object sender, EventArgs e)
+        private void DatabaseTreeView_AfterSelect(object sender, TreeViewEventArgs e)
         {
             // TODO: database path must be taken from configuration
             var path = Path.Combine(

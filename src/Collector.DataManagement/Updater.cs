@@ -20,7 +20,7 @@ namespace Collector.DataManagement
                 var signature = new Signature("application", "application@app.com", DateTime.Now);
                 var pullOptions = new PullOptions();
                 var repository = new Repository(repositoryPath);
-                Commands.Pull(repository, signature, pullOptions);
+                _ = Commands.Pull(repository, signature, pullOptions);
             }
         }
     }
