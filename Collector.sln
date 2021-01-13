@@ -34,11 +34,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution", "solution", "{8F
 		LICENSE.txt = LICENSE.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collector.Formats.Umd", "src\Collector.Formats.Umd\Collector.Formats.Umd.csproj", "{C0773791-75FC-4227-9CC1-8992FFD7C12A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collector.Formats.Umd", "src\Collector.Formats.Umd\Collector.Formats.Umd.csproj", "{C0773791-75FC-4227-9CC1-8992FFD7C12A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{1CE9B2F9-1454-4918-BD13-5933DDEA168C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UmdBuilder", "test\UmdBuilder\UmdBuilder.csproj", "{1290D6E8-4D4E-446D-9E58-6A636E996A15}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UmdBuilder", "test\UmdBuilder\UmdBuilder.csproj", "{1290D6E8-4D4E-446D-9E58-6A636E996A15}"
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{99B93D15-A54F-4F6C-BA0E-B5A28CCC0F49}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "formats", "formats", "{D78A9A2A-0C5F-4CD1-B69D-DE0FD0220334}"
@@ -67,6 +68,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "floppy-disks", "floppy-disk
 		docs\formats\floppy-disks\atari-8bit-xfd.md = docs\formats\floppy-disks\atari-8bit-xfd.md
 		docs\formats\floppy-disks\index.md = docs\formats\floppy-disks\index.md
 	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collector.Formats.Tapes", "src\Collector.Formats.Tapes\Collector.Formats.Tapes.csproj", "{5AF3CA42-6C69-4446-9204-7252ECF44D9F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -172,6 +175,14 @@ Global
 		{1290D6E8-4D4E-446D-9E58-6A636E996A15}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1290D6E8-4D4E-446D-9E58-6A636E996A15}.Release|x64.ActiveCfg = Release|x64
 		{1290D6E8-4D4E-446D-9E58-6A636E996A15}.Release|x64.Build.0 = Release|x64
+		{5AF3CA42-6C69-4446-9204-7252ECF44D9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AF3CA42-6C69-4446-9204-7252ECF44D9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AF3CA42-6C69-4446-9204-7252ECF44D9F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5AF3CA42-6C69-4446-9204-7252ECF44D9F}.Debug|x64.Build.0 = Debug|Any CPU
+		{5AF3CA42-6C69-4446-9204-7252ECF44D9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AF3CA42-6C69-4446-9204-7252ECF44D9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AF3CA42-6C69-4446-9204-7252ECF44D9F}.Release|x64.ActiveCfg = Release|Any CPU
+		{5AF3CA42-6C69-4446-9204-7252ECF44D9F}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -193,6 +204,7 @@ Global
 		{1A1B5A25-DB32-4EEC-9E53-B61248F3EF5E} = {D78A9A2A-0C5F-4CD1-B69D-DE0FD0220334}
 		{D5FFF8DA-4D0B-4589-95A8-2C7364ED6C1D} = {D78A9A2A-0C5F-4CD1-B69D-DE0FD0220334}
 		{0CB7B425-E218-487B-A6A7-94219CF50BFC} = {D78A9A2A-0C5F-4CD1-B69D-DE0FD0220334}
+		{5AF3CA42-6C69-4446-9204-7252ECF44D9F} = {62DE28D9-B9B4-4072-BA9F-A90055E8863F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CE6DE426-31C6-4877-9A70-FE7328E56D89}
